@@ -1,0 +1,45 @@
+.active {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed !important;
+    top: 0;
+    z-index: 100;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    /* display: block; */
+}
+
+.modal {
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed !important;
+    top: 0;
+    z-index: 100;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+
+    display: none;
+}
+
+.modal-title {
+    margin-bottom: 20px;
+}
+
+.modalContent {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    max-height: 700px;
+    overflow-y: scroll;
+    max-width: 80%;
+}
